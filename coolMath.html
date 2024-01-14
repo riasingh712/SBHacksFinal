@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel ="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool Math Games</title>
+
+</head>
+<body>
+
+    <header>
+        <h1>Cool Math Games</h1>
+    </header>
+
+    <main>
+        <!-- <h2>GAMES</h2>
+        <p>This is a simple example to get you started.</p> -->
+        <center><div class="image-container">
+            <div>
+                <img src="https://ellipsiseducation.com/wp-content/uploads/2023/04/Scratch-cat.png" alt= "Scratch" title= "Scratch" width="300" height="300" />
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/1200px-Python.svg.png" alt= "Python" title= "Python" width="300" height="300" />
+            </div>
+        </div></center>
+    
+        <script>
+            document.getElementById("click1").onclick = function(event) {
+                if (event==undefined) event= window.event;
+                var target= 'target' in event? event.target : event.srcElement;
+    
+                if (Math.random() < 0.5) {
+                    window.location.href = "https://youtu.be/dQw4w9WgXcQ?si=R0ynL6uWqsRs6Had";
+                }
+            };
+        </script>
+    </main>
+    
+    </div>
+    <style>
+        .center-table {
+          margin: 0 auto; /* Set left and right margin to 'auto' */
+          width: 100%; /* Adjust the width as needed */
+        }
+    </style>
+    <div style="overflow: auto; width: 1250px; height: 500px;" class="center-table">
+    <table>
+        <tr>
+          <td>
+            <img src="images/clock1.jpg" alt= "classic games" title= "classic games" width="300" height="300" />
+          </td>
+          <td>
+              <img src="images/brain.jpg.webp" alt= "brain games" title= "brain games" width="300" height="300" />
+          </td>
+          <td>
+              <img src="images/planet.jpg.avif" alt= "International Games" title= "International Games" width="300" height="300" />
+          </td>
+          <td>
+              <img src="images/fire.jpg" alt= "Hunger Games" title= "Hunger Games" width="300" height="300" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <center><figcaption> <h3> <a href = "https://www.poptropica.com" > Classic Games </a> </h3> </figcaption></center>
+          </td>
+          <td>
+            <center><figcaption> <h3> <a href = "https://0x0800.github.io/2048-CUPCAKES/" > Brain Games </a> </h3> </figcaption></center>
+          </td>
+          <td>
+            <center><figcaption> <h3> <a href = "https://www.youtube.com/shorts/00h0SN2NqCc" > International Games </a> </h3> </figcaption></center>
+          </td>
+          <td>
+            <center><figcaption> <h3> <a href = "https://www.youtube.com/shorts/dgNe2QqE0dE" > Hunger Games </a> </h3> </figcaption></center>
+          </td>
+        </tr>
+    </table>
+    </div>
+    <footer>
+        &copy; 2024 CoolHackGames
+        <div id="about-us">
+            <h3><a id="about-us-link" href="about-us.html">About Us</a></h3>
+            <!-- Replace "about-us.html" with the actual file you want to link to -->
+        </div>
+    </footer>

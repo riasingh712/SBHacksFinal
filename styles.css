@@ -57,5 +57,5 @@ footer {
 }
 
 tr{
-    overflow: auto; width: 200px; height: 200px;
+    overflow: scroll; width: 200px; height: 200px;
 }
